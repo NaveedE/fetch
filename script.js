@@ -1,4 +1,4 @@
-async function addProcuts() {
+async function addProducts() {
   const resp = await fetch('https://dummyjson.com/products');
   const arr = await resp.json();
   const container = document.getElementById('product-container');
@@ -19,5 +19,5 @@ async function addProcuts() {
 
   
 }
-addProcuts();
+addProducts();
 
